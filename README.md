@@ -1,5 +1,5 @@
 # LaravelREST
-Simple REST system built in Laravel PHP Framework (v5.3), developed for a college course *Service-Oriented Computing* <i class="icon-heart"></i>
+Simple REST system built in Laravel PHP Framework (v5.3), developed for a college course *Service-Oriented Computing*.
 
 Default Laravel web interface is located at *host/path-in-host/public* and default Laravel user authentication is created (login and register capabilities). To use the API you will need to register a new user since **API uses Basic Authentication** on all resources (all users are allowed all actions on any resource by default).
 
