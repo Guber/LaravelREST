@@ -7,7 +7,6 @@ Default Laravel web interface is located at *host/path-in-host/public* and defau
 **Unit test cases** which cover all of the Controllers are located in *tests/* folder. Test cases can be runed using phpunit.
 
 > **Setting up:**
-
 > - For server requirements check official [Laravel web page][1]
 > - Change *config/database.php* to you database connection data.
 > - Be sure to call *php artisan migrate* to execute needed database migrations and *composer install* to install needed dependencies
