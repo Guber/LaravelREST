@@ -22,6 +22,7 @@ For resource „USER“:
 |GET	|/users	|index	|users.index
 |POST	|/users	|store	|users.store
 |GET	|/users/{id}	|show	|users.show
+|GET	|/users/{id}/tasks	|show	|users.showTasks
 |PUT/PATCH	|/users/{id}	|update	|users.update
 |DELETE	|/users/{id}	|destroy	|users.destroy
 
@@ -32,6 +33,7 @@ For resource „PROJECT“:
 |GET	|/projects	|index	|projects.index
 |POST	|/projects	|store	|projects.store
 |GET	|/projects/{id}	|show	|projects.show
+GET	|/projects/{id}/tasks	|show	|projects.showTasks
 |PUT/PATCH	|/projects/{id}	|update	|projects.update
 |DELETE	|/projects/{id}	|destroy	|projects.destroy
 
